@@ -1,0 +1,613 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>decima aplicacion movil</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app10.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+   <script type="text/javascript">
+   
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/evolucion2.jpg','imagenes/futuro2.jpg','imagenes/definicion1.jpg','imagenes/gama2.jpg','imagenes/veterinaria1.jpg','imagenes/psicologia.jpg')">
+ <div data-role="page" id="Principal" data-theme="c">
+    <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar"  data-back-btn-theme="c">
+     <h1>Carreras Universitarias</h1>
+     <div style="width:40%"> </div>
+     <div style="width:40%">      </div>
+   </div>    
+   
+   <div data-role="main" class="ui-content">
+   <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Pediatria</h2>
+        <p>Muestra informacion sobre ofertas de estudio</p>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Veterinaria</h2>
+        <p>Muestra informacion sobre ofertas de estudio</p>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Psicologia</h2>
+        <p>Muestra informacion sobre ofertas de estudio</p>
+       </a></li>
+    </ul>
+   </div>
+   <br>
+   <div id="wowslider-container1">
+     <div class="ws_images"><ul>
+		<li><img src="data1/images/definicion1.jpg" alt="definicion1" title="Carreras Universitarias" id="wows1_0"/></li>
+		<li><img src="data1/images/evolucion.jpg" alt="evolucion" title="Carreras Universitarias" id="wows1_2"/></li>
+		<li><img src="data1/images/evolucion1.jpg" alt="evolucion1" title="Carreras Universitarias" id="wows1_3"/></li>
+		<li><img src="data1/images/evolucion2.jpg" alt="evolucion2" title="Carreras Universitarias" id="wows1_4"/></li>
+		<li><img src="data1/images/futuro.jpg" alt="futuro" title="Carreras Universitarias" id="wows1_5"/></li>
+		<li><img src="data1/images/gama.png" alt="gama" title="Carreras Universitarias" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/logo.png" alt="image slider" title="Carreras Universitarias" id="wows1_8"/></a></li>
+		<li><img src="data1/images/red.jpg" alt="red" title="Carreras Universitarias" id="wows1_9"/></li>
+		<div style="width:40%"> </div>
+</ul>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+        <h1> Datos del Desarrollador</h1>
+            <div>
+<center><h1>Nombre Alumna:Blanca Edith Flores Lopez
+            <p>Grupo:&quot;G&quot;</p>
+            <p>Semestre:4°</p>
+            <p>Especialidad:Programacion</p>
+            <p>Submodulo:Diseña Aplicaciones Moviles(DAM)</p>
+            <p>Nombre del Docente:Jose Antonio Gomez Hernandez</p>
+<p><img src="imagenes/descarga.png" width="15%" height="7%">C.B.T.i.s N°16 </p></h1></center>
+            </div>
+      </div>
+      <center><div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://www.medicina.uaslp.mx/especialidades/pediatria/plan.html" target="_self" id="beep3" data-role="button" herf="#">Plan de estudios de pediatria</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div></center>
+        
+        <center><div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://veterinaria.unach.mx/index.php?option=com_content&task=view&id=48&Itemid=72" target="_self" id="beep3" data-role="button" herf="#">Plan de estudios de veterinario</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div></center>
+        
+        <center><div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://www.psicologia.unam.mx/programa-completo-de-la-licenciatura-en-psicologia/" target="_self" id="beep3" data-role="button" herf="#">Plan de estudios de psicologia</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div></center>
+        
+	<div class="ws_bullets"></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <center> <div style="width:40%"> </div>
+   <div style="width:40%">     </div>
+   <div style="width:40%"> </div>
+     </center>  
+   <center><div style="width:40%">     </div>
+     <div style="width:40%">      </div>
+   </center>
+   <center><div style="width:40%">
+     </div>
+   </center>
+   <center><div style="width:40%"><!-- Start WOWSlider.com BODY section -->
+   </div>
+   </center>
+   </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+</div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h1>Pediatria</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> imagen de pediatria</h2>
+            <div>
+            <img src="imagenes/definicion.jpg" width="55%" height="20%">
+            </div>
+            </div>
+             <h3>Esta es una especialidad médica que estudia al niño sano y enfermo. Médico que está presente desde el momento del parto a hasta la adolescencia de una persona.
+De igual manera un pediatra está preparado para tratar también a un recién nacido prematuro hasta adolescentes de 18 años o incluso de 21 años de edad. </h3>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('definicion','','imagenes/definicion1.jpg',1)"><img src="imagenes/definicion2.jpg" width="300" height="285" id="definicion"></a></p>
+             <h3>Que se necesita para tener la especialidad en Pediatría </h3>
+             <p>*Contar con el título de medicina general. </p>
+             <p>*Disponibilidad de tiempo completo. </p>
+             <p>*Actitud de servicio. </p>
+             <p>*Interés por el desarrollo y cuidado del niño y adolescente.</p>
+             <p>* Interés en adquirir nuevos conocimientos.</p>
+             <h3>¿Cuánto tiempo se estudia para obtener la especialidad en Pediatría?</h3>
+             <p>Un pediatra es un especialista que estudia los mismos años que otros especialistas como el cirujano, el internista o el ginecobstetra.</p>
+             <p>Una vez que se ha terminado la carrera de Medicina (7 años en promedio), se tiene que realizar una residencia de posgrado que dura alrededor de un año más de entrenamiento en las especialidades básicas, luego se hace la residencia en pediatría.</p>
+             <p>La especialidad en Pediatría dura varios años, 3 o 4 según la Universidad y el país en donde se estudie. Durante ese tiempo el médico labora o incluso puede llegar a vivir dentro de un hospital, a esto se le llama residencia en pediatría.</p>
+                         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pediatria','','imagenes/pediatria2.jpg',1)"><img src="imagenes/pediatria1.jpg" width="300" height="285" id="pediatria"></a></p>
+<div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Donde estudiar pediatria institutos</h2>
+        <p>Muestra institutos para la especialidad de pediatria</p>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Labor de un pediatra</h2>
+        <p>Muestra informacion sobre el labor de un pediatra</p>
+       </a>
+    </li>
+    </ul>
+   </div>
+              <div style="width:40%"></div>
+<div style="width:40%">              </div>
+             <div style="width:40%">              </div>
+            </div>
+          </div>
+        <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+</div>
+     </div>
+
+      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+      <h1>Veterinaria</h1>   
+   </div>   
+   <div data-role="content" align="center">
+     <div>
+      <div data-role="collapsible" data-content-theme="false">
+            <h2> imagen de veterinaria</h2>
+            <div>
+            <img src="imagenes/evolucion1.jpg" width="63%" height="50%">
+            </div>
+       </div>
+       <h3>Estudiar la carrera de Veterinaria implica comprometerse con el mundo animal y su salud desde diferentes ámbitos, pero siempre bregando por su bienestar tanto físico como emocional.</h3> 
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('evolucion','','imagenes/evolucion2.jpg',1)"><img src="imagenes/evolucion.jpg" width="339" height="149" id="evolucion"></a></p>
+       <h3>Estudiar Veterinaria</h3>
+       <p>En general, la Veterinaria se lleva como vocación durante toda la vida. Las personas que ingresan a estudiar esta carrera son aquellas que tuvieron afinidad con los animales siempre, sea con especies domésticas o silvestres. Es una carrera muy compleja, ya que la cantidad de especies que se estudian son innumerables, requiriendo que el alumno tenga una gran habilidad para el estudio, debido a que pasará mucho tiempo dedicándose tanto a la teoría como a la práctica.</p>
+       <h3>¿Por qué estudiar Veterinaria?</h3>
+       <p>*Porque sientes un gran interés por el área científico-biológica, en especial por los sistemas orgánicos.</p>
+       <p>*Porque sientes curiosidad sobre la crianza de animales. </p>
+       <p>*Porque te interesa la producción.</p>
+       <p>*Porque valoras a las Ciencias, en especial a las naturales.</p>
+       <p>*Porque tienes deseos de aplicar en forma práctica tus conocimientos, produciendo y haciendo uso de la tecnología.</p>
+       <p>*Porque valores la naturaleza y el medio ambiente.</p>
+       <p>*Porque sientes un gran respeto por los animales.</p>
+       <p>*Porque tienes inclinación a trabajar en espacios abiertos.</p>
+       <p>*Porque tienes capacidad en el área científico-biológica.</p>
+       <p>*Porque posees lo que se denomina &ldquo;Inteligencia Naturalista&rdquo;.</p>
+       <p>*Porque te crees capaz de lidiar emocionalmente con un animal enfermo o moribundo y, en especial, con el entorno de éste.</p>
+                       </li>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('veterinaria','','imagenes/veterinaria1.jpg',1)"><img src="imagenes/veterinaria2.png" width="300" height="285" id="veterinaria"></a>
+                   <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Donde estudiar veterinaria</h2>
+        <p>Muestra institutos para la especialidad de veterinaria</p>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Labor de un veterinario</h2>
+        <p>Muestra informacion sobre el labor de un veterinario</p>
+       </a>
+ 
+    </ul>
+   </div>
+       <div style="width:40%">       </div>
+       <div style="width:40%"> </div>
+     </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h1>Psicologia</h1>
+   </div>
+          <div data-role="content" align="center">
+            <div>
+             <div data-role="collapsible" data-content-theme="false">
+            <h2> imagen de psicologia</h2>
+            <div>
+              <p><img src="imagenes/gama.png" width="49%" height="41%">
+              </p>
+     </div>
+            </div> 
+             <h2>Estudiar Psicología es, para muchas personas, una de las opciones más atractivas cuando llega el momento de plantearse qué estudios universitarios cursar. Es algo que puede ser comprobado fácilmente al ver que, año tras año, <strong>la carrera de Psicología </strong>es una de las más demandadas año tras año. </h2>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gama','','imagenes/gama2.jpg',1)"><img src="imagenes/gama1.jpg" width="301" height="191" id="gama"></a> </p>
+             <h3>¿Cuánto tiempo tardaré en ser psicólogo?</h3>
+             <p>La carrera de psicología suele tener una duración académica de entre cuatro y cinco años. Sin embargo,<strong> cada persona tiene un ritmo distinto</strong> y es posible que, dependiendo de tu motivación, capacidades y tiempo disponible, seas capaz de acabarla en menos tiempo, o que tardes algún año extra en conseguir completar y recibir tu diploma.</p>
+             <h3> ¿Es muy difícil la carrera de Psicología?</h3>
+             <p>Cursar cada semestre de la carrera <strong>requerirá de mucho tesón, esfuerzo y capacidad de superación</strong>. Tendrás que leer muchos libros, artículos y documentos para ser capaz de analizar, interpretar y comprender la complejidad de la psique, de la conducta y de las relaciones interpersonales.</p>
+                                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('psicologia','','imagenes/psicologia.jpg',1)"><img src="imagenes/psicologia1.jpg" width="300" height="285" id="psicologia"></a></p>
+<div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/psicologia.jpg" alt="2" title="facultad en psicologia" id="wows2_0"/></li>
+		<li><img src="data2/images/psicologia1.jpg" alt="3" title="facultad en psicologia" id="wows2_1"/></li>
+		<li><img src="data2/images/psicologia2.jpg" alt="6" title="facultad en psicologia" id="wows2_2"/></li>
+		<li><img src="data2/images/psicologia3.jpg" alt="7" title="facultad en psicologia" id="wows2_3"/></li>
+		<li><img src="data2/images/psicologia4.jpg" alt="22" title="facultad en psicologia" id="wows2_4"/></li>
+		<li><img src="data2/images/psicologia5.jpg" alt="8" title="facultad en psicologia" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/psicologia6.jpg" alt="wowslider" title="facultad en psicologia" id="wows2_6"/></a></li>
+		<li><img src="data2/images/psicologia7.jpg" alt="44" title="facultad en psicologia" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia.jpg" alt="2"/>1</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia1.jpg" alt="3"/>2</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia2.jpg" alt="6"/>3</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia3.jpg" alt="7"/>4</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia4.jpg" alt="22"/>5</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia5.jpg" alt="8"/>6</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia6.jpg" alt="33"/>7</span></a>
+		<a href="#" title="facultad en psicologia"><span><img src="data2/tooltips/psicologia7.jpg" alt="44"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Donde estudiar Psicologia</h2>
+        <p>Muestra institutos para la especialidad de psicologia</p>
+       </a>
+    </li>
+    </ul>
+   </div>
+             <div style="width:40%"></div>
+            </div>
+          </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+</div>
+     </div>
+       
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+         <h1>Universidades para estudiar pediatria</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+<div data-role="collapsible" data-content-theme="false">
+            <h2> imagen pediatra</h2>
+            <div><img src="imagenes/pediatria.jpg" width="59%" height="35%"></div>
+        </div>
+<h2>En México hay varias universidades donde se puede cursar esta especialidad, las siguientes son algunas:</h2>
+<p>*Coahuila: Universidad Autónoma de Coahuila.</p>
+<p> *Colima: Universidad de Colima. </p>
+<p>*Cuernavaca, Morelos: Universidad Autónoma Del Estado de Morelos. </p>
+<p>*Chiapas: Universidad Autónoma de Chiapas. </p>
+<p>*Chihuahua: Universidad Autónoma de Chihuahua.</p>
+<p> *Estado de México: Universidad Autónoma del Estado de México.</p>
+<p> *Guadalajara: Universidad Autónoma de Guadalajara. </p>
+<p>*Guanajuato: Universidad de Guanajuato. </p>
+<p>*Mexico, D.F: Universidad de la Salle. </p>
+<p>*Monterrey, Nuevo León. Tecnológico de Monterrey. </p>
+<p>*Morelia, Michoacán: Universidad Michoacana de San Nicolás de Hidalgo.</p>
+<p> *Nuevo León: Colegio de Pediatría. </p>
+<p>*Pachuca, Hidalgo: Universidad Autónoma Del Estado de Hidalgo.</p>
+<p> *Puebla: Benemérita Universidad Autónoma de Puebla. </p>
+<p>*San Luis Potosí: Universidad Autónoma de San Luis Potosí.          </p>
+<div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://buscandouniversidad.com/puebla/universidades-privadas/4727-universidad-panamericana-de-puebla-c-e-s.html" target="_self" id="beep3" data-role="button" herf="#">Mejor instituto de pediatria</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div><div style="width:80%">
+          </div>
+        </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+</div>
+   </div>
+          
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+       <h1>¿Cuál es la labor de un Pediatra?</h1>
+     </div>
+    <div data-role="content" align="center">
+      <div>
+<div data-role="collapsible" data-content-theme="false">
+            <h2> imagen labor de pediatra</h2>
+            <div>
+            <img src="imagenes/pediatria3.jpg" width="54%" height="42%">
+            </div>
+        </div>
+<p>*Vigilar el crecimiento y desarrollo de los niños</p>
+<p>*Cuidar y orientar a sus padres sobre su alimentación.</p>
+<p>*Dar instrucciones a los padres sobre la prevención de las enfermedades promocionando y aplicando las inmunizaciones o vacunas.</p>
+<p>*Atiende enfermedades comunes de los niños y adolescentes.</p>
+<p>*Vigila la salud mental del niño.</p>
+<p>*Atender problemas conductuales, emocionales y sociales.</p>
+<p>*Está capacitado para atender problemas de aprendizaje y otros problemas escolares.</p>
+<p>*Es de gran ayuda en la prevención y control del consumo de drogas en los adolescentes.</p>
+<p>*Un apoyo para tratar los problemas de la pubertad y otros relacionados con la adolescencia.</p>
+        <div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://www.venelogia.com/archivos/4367/" target="_self" id="beep3" data-role="button" herf="#">Labores de un pediatra</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div>
+      </div>
+    </div> 
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+</div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h1>Universidades para estudiar veterinaria</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+              <div></div>
+            </div>
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> imagen veterinaria</h2>
+            <div><img src="imagenes/veterinaria3.jpg" width="54%" height="42%"></div>
+        </div>
+             <h2>En México hay varias universidades donde se puede cursar esta especialidad, las siguientes son algunas:</h2>
+             <p>*Universidad Benito Juárez</p>
+             <p>*Universidad Autónoma de Benito Juárez Oaxaca</p>
+             <p>*Universidad Autónoma Metropolitana</p>
+             <p>*Universidad Nacional Autónoma de México</p>
+             <p>*Universidad Autónoma de Nuevo León</p>
+             <p>*Universidad Autónoma del Estado de México</p>
+             <p>*Universidad Nacional Autónoma de México</p>
+             <p>*Benemérita Universidad Autónoma de Puebla</p>
+             <p>*Universidad Popular Autónoma del Estado de Puebla</p>
+             <div style="width:80%">
+     <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://universidadesdemexico.mx/universidades/universidad-de-guanajuato/licenciatura-en-medicina-veterinaria-y-zootecnia" target="_self" id="beep3" data-role="button" herf="#">Mejor instituto de veterinaria</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+        </div><div style="width:80%">
+          </div>
+        <div class="box-5">
+          <a href="#" class="link"></a>
+          </div>
+            </div>
+          </div>
+        <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+             </div>
+             <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h1>Labores de un veterinario veterinaria</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+              <div></div>
+            </div>
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> imagen labor de un beterinario</h2>
+            <div><img src="imagenes/veterinaria4.jpg" width="54%" height="42%"></div>
+        </div>
+             <p>
+*Un Médico Veterinario necesitó de 5 años de ESTUDIOS UNIVERSITARIOS para ser Veterinario?</p>
+             <p> *Estudió muchos de los CURSOS BÁSICOS que su médico, incluyendo asignaturas tales como inmunología, farmacología, histología entre otras, las cuales son prácticamente iguales en todos los campos de la medicina?</p>
+             <p> *Un médico veterinario dedica muchas horas de su tiempo para adquirir experiencia clínica, estudiando asignaturas como anatomía, fisiología, patología, parasitología, salud pública y medicina preventiva?</p>
+             <p> *Debe cubrir hasta CUATRO AÑOS ADICIONALES de estudios de posgrado, para hacerse acreedor de una especialidad en: Cirugía, Radiología, Cardiología, Oftalmología, Gastroenterología, Dermatología, etc.?               </p>
+             <p>*Un médico veterinario no puede preguntarle a su paciente cuáles son sus síntomas? Él tiene que hacer uso de sus conocimientos para establecer un diagnóstico y prescribir el medicamento que su mascota requiere. </p>
+             <p>*Debe tener Conocimientos de Varias Especies animales, sus funciones orgánicas y de las muchas enfermedades que afectan a cada una.</p>
+             <p> *Tiene que adquirir una gran variedad de libros y revistas de importación de distintas especialidades para mantener sus conocimientos actualizados y así poder atender más eficientemente a su mascota? </p>
+             <p> *Un veterinario debe reconocer cada síntoma. Cuando usted menciona dos o tres que ha notado, él tiene que diagnosticar estos mismos, los cuales pueden estar relacionados con una o varias enfermedades de las tantas existentes.</p>
+             <div style="width:80%">
+               <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="http://www.conciencia-animal.cl/paginas/temas/temas.php?d=536" target="_self" id="beep3" data-role="button" herf="#">Labores de un veterinario</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+      </div>
+             <div class="box-5">
+               <a href="#" class="link"></a>
+             </div>
+            </div>
+          </div>
+        <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+             </div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+             <h1>Universidades para estudiar Psicologia</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+              <div></div>
+            </div>
+            <h2>Institutos para estudiar la especialidad de psicologia:</h2>
+            <p>*Universidad Autónoma de Madrid (UAM)</p>
+               <p>*Universidad Complutense de Madrid (UCM)</p>
+               <p>*Universitat de Barcelona (UB)</p>
+               <p>*Universidad Autónoma de Barcelona (UAB)</p>
+               <p>*Universidad de Granada (UGR)</p>
+               <p>*Universidad de Valencia (UV)</p>
+               <p>*Universidad de Santiago de Compostela (USC)</p>
+               <p>*Universidad de Sevilla (US)</p>
+               <p>*Universidad de País Vasco (UPV/EHU)</p>
+               <p>*Universidad de Zaragoza (UniZar)</p>
+             <div style="width:80%">
+               <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+         <h2><a href="https://www.unam.mx/" target="_self" id="beep3" data-role="button" herf="#">Mejor instituto de Psicologia</a></h2>
+       </li>
+     </ul>
+<div style="width:40%">          </div>
+      </div>
+             <div style="width:80%">              </div>
+             <div class="box-5">
+               <a href="#" class="link"></a>
+             </div>
+            </div>
+          </div>
+        <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <div style="width:40%"></div>
+     </div>
+    <div>
+    <h4>Guia de Carreras</h4>
+      <h4>BEFL</h4>
+      <img src="res/android/mdpi.png" width="92" height="57">
+      <div style="width:40%">     
+       </div>
+    </div>
+   </div>
+             </div>
+</body>
+</html>
